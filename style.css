@@ -1,0 +1,20 @@
+main{
+   display: grid;
+   place-items: center;
+   margin : 4rem;
+}
+
+button{
+    margin: 1rem;
+    padding:.3rem;
+    background-color:black;
+    color:white;
+    border-radius: .2rem;
+    width: 4rem;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+    transition:all  .5s ease-in-out;
+}
